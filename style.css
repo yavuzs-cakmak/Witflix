@@ -1,0 +1,30 @@
+header {
+    display: flex;               
+    justify-content: space-between; 
+    align-items: center;         
+    padding: 20px 5%;            
+    background-color: #fff;      
+}
+
+.logo {
+   color: #E50914;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+   display:inline-block;
+   font-size: 28px;
+   font-weight: 900;
+   letter-spacing: -1px;
+}
+.header-icons img {
+    width: 24px;   
+    height: 24px;  
+    object-fit: contain; 
+}
+
+
+.profile-pic img {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px; 
+    object-fit: cover;
+}
