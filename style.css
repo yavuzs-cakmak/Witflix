@@ -47,6 +47,7 @@ body {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1;
+   
 }
 .gri-yildiz {
     color: #ccc;
@@ -58,4 +59,75 @@ body {
     left:0;
     white-space: nowrap;
     overflow: hidden;
+}
+.ana {
+    width: 100%;
+    min-width: 80vh;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.95), rgba(255,255,255,0)), url("assets/topGun.jpg");
+    background-size: cover;
+    background-position-y: 30%  ;
+    display:flex;
+    align-items: center;
+    padding: 50px 5%;
+    border: 1px solid #333;
+    border-bottom-color: #ccc;
+    box-sizing: border-box;
+    
+}  
+.ana-icerik {
+    max-width : 600px;
+}
+.ana-icerik h1 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.film-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.yas{
+    border: 1px solid #333;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+.aciklama {
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    color: #333333;
+}
+.basrol, .tur, .etiketler {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+.ana-icerik strong {
+    color:#E50914;
+    margin-right: 5px;
+}
+.btn-play {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor:pointer;
+    align-items: center;
+    gap:10px;
+    transition: transform 0.2s, background-color 0.2s;
+    margin-top: 20px;
+}
+.btn-play:hover {
+background-color: #b20710;
+transform: scale(1.05);
+}
+.btn-play span{
+font-size: 1.2rem;
 }
