@@ -124,6 +124,7 @@ font-family: 'Montserrat', sans-serif;
     gap:10px;
     transition: transform 0.2s, background-color 0.2s;
     margin-top: 20px;
+    border-radius: 10px;
 }
 .btn-play:hover {
 background-color: #b20710;
@@ -132,31 +133,64 @@ transform: scale(1.05);
 .btn-play span{
 font-size: 1.2rem;
 }
-.popular-movies-container {
-    padding: 40px 5%;
-    display: flex;
-    flex-direction: column; 
-    gap: 20px; 
-}
+
+
 
 .popular-movies-container .header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
     margin-bottom: 15px;
+    margin: 15px 15px;
 }
 
 
 .movie-list {
-    display: flex;
-    flex-direction: row; 
+    display: flex ;
+    flex-direction: row ; 
+    justify-content: flex-start ;
     gap: 20px; 
     overflow-x: auto; 
     padding-bottom: 10px;
+    width: 100%;
+    margin-left: 0; 
+    margin-right: auto;
 }
 
 
 .movie-card {
     min-width: 250px; 
     flex-shrink: 0; 
+    margin-right: 20px;
+    border: 1px solid #333;
+    padding: 30px 150px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+}
+.movie-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+    border-color: #999;
+}
+h2 {
+font-size: 1rem;
+margin-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.other-film-names {
+    font-size: 1.5rem;
+margin-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+.popular-movies-container .btn-play {
+    font-size: 0.8rem;
+    padding: 10px 45px 10px 15px;
+    
+}
+.popular-movies-container .btn-play span{
+    font-size: 0.9rem;
+    
 }
