@@ -13,6 +13,7 @@ header {
    font-size: 28px;
    font-weight: 900;
    letter-spacing: -1px;
+   margin-left: -90px;
 }
 nav a{
 color:black;
@@ -22,14 +23,41 @@ margin: 0px 20px;
 .header-icons {
     display: flex;
     align-items: center; 
-    gap: 15px;           
+    gap: 15px; 
+    transform: translateX(90px);          
 }
 .header-icons img {
     width: 21px;   
     height: 21px;  
     object-fit: contain; 
 }
+.search-box {
+    position: relative; 
+    display: flex;
+    align-items: center;
+}
 
+
+.search-box input {
+    padding: 8px 35px 8px 15px;
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    width: 200px; 
+}
+
+
+.search-box img {
+    position: absolute; 
+    right: 15px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 16px; 
+    height: 16px;
+    cursor: pointer;
+}
 
 .profile-pic img {
     width: 40px;
@@ -170,6 +198,10 @@ font-size: 1.2rem;
     align-items: flex-start;
     transition: transform 0.3s ease, box-shadow 0.5s ease;
 }
+.movie-card.normal-c {
+    padding: 30px 130px 30px 20px;
+    
+}
 .movie-card:hover {
     transform: translateY(-5px); 
     box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
@@ -193,4 +225,86 @@ font-family: 'Montserrat', sans-serif;
 .popular-movies-container .btn-play span{
     font-size: 0.9rem;
     
+}
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 5%;
+    border-top: 1px solid #ccc ;
+    font-family: 'Montserrat', sans-serif;
+    gap: 50px;
+    margin-top: 200px;
+}
+footer div:first-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+footer nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: -110px;
+}
+footer nav a{
+text-decoration: none;
+color: #666;
+font-size: 0.9rem;
+font-weight: 700;
+cursor: pointer;
+}
+footer div:first-child p {
+    margin-top: 1rem;
+    max-width: 800px;
+    line-height: 1.6;
+    margin-left: -90px;
+}
+footer div:nth-child(2),
+footer div:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 15px; 
+    flex-wrap: wrap;
+    transform: translateX(110px);
+}
+footer div:nth-child(2) p {
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer div:last-child p {
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.9rem;
+   
+}
+footer div:nth-child(2) i {
+     
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    
+}
+
+footer div:nth-child(2) i:hover {
+    transform: scale(1.15); 
+}
+.store-google {
+    height: 35px;
+    object-fit: contain;
+    cursor: pointer;
+    margin-top: -30px;
+}
+.store-apple {
+    height: 90px;
+    object-fit: contain;
+    cursor: pointer;
+    margin-top: -30px;
+    margin-left: -15px; 
 }
