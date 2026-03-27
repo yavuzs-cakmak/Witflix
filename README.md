@@ -1,6 +1,7 @@
 # 🎬 WitFlix - AI-Powered Movie Streaming Interface
 
-![WitFlix Preview](<img width="1919" height="864" alt="witflixProjeFotomSonHali" src="https://github.com/user-attachments/assets/7bbb60a9-c361-407d-a61c-7ef2bb54e630" />
+![WitFlix Preview](<img width="1919" height="864" alt="witflixProjeFotomSonHali" src="https://github.com/user-attachments/assets/10b27912-f9e4-450d-80ff-20517c0a3f76" />
+ />
 )
 
 > A modern, responsive, Netflix-inspired movie streaming platform interface featuring an integrated AI assistant for personalized recommendations.
