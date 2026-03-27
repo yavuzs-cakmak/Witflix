@@ -232,9 +232,9 @@ overflow: hidden;
 white-space: normal;
 }
 .movie-card .film-meta {
-    height: 2.5rem; /* Meta bilgilerinin alanını sabitledik */
+    height: 2.5rem; 
     display: flex;
-    align-items: center; /* Kendi içinde dikeyde ortalar */
+    align-items: center; 
     margin-bottom: 20px;
     gap: 10px;
 }
