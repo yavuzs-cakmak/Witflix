@@ -1,7 +1,7 @@
 # 🎬 WitFlix - AI-Powered Movie Streaming Interface
 
 
-**[🚀 CLICK HERE TO VIEW THE LIVE DEMO](https://yavuzs-cakmak.github.io/witflix/)**
+**[🚀 CLICK HERE TO VIEW THE LIVE DEMO](https://yavuzs-cakmak.github.io/Witflix/)**
 
 
 ![WitFlix Preview]<img width="1919" height="864" alt="witflixProjeFotomSonHali" src="https://github.com/user-attachments/assets/10b27912-f9e4-450d-80ff-20517c0a3f76" />
