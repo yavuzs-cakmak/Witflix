@@ -6,6 +6,8 @@
 <title> Witflix - Movie Streaming </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="style.css" >
+<script src="script.js"></script>
+<script src="config.js"> </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
@@ -214,6 +216,18 @@
 
 </div>
     </footer>
+    <div id="witbot-icon" onclick="toggleChat()">
+    <i class="fa-solid fa-robot fa-2xl"></i>
+</div>
+
+<div id="witbot-container" style="display:none;">
+    <div class="chat-header">WitBot AI <span onclick="toggleChat()">✖</span></div>
+    <div id="chat-content"></div>
+    <div class="chat-input-area">
+        <input type="text" id="user-input" placeholder="Film sor...">
+        <button onclick="askWitBot()">Gönder</button>
+    </div>
+</div>
     
 </body>
 </html>

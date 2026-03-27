@@ -379,3 +379,25 @@ footer div:nth-child(2) i:hover {
     margin-top: -30px;
     margin-left: -15px; 
 }
+#witbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #E50914;
+    color: white;
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; z-index: 1000;
+}
+#witbot-container {
+    position: fixed;
+    bottom: 90px; right: 20px;
+    width: 300px; height: 400px;
+    background: white; border: 1px solid #ccc;
+    border-radius: 15px; flex-direction: column; z-index: 1000;
+}
+.chat-header { background: #E50914; color: white; padding: 10px; border-radius: 15px 15px 0 0; display: flex; justify-content: space-between; }
+#chat-content { flex: 1; padding: 10px; overflow-y: auto; color: black; font-size: 0.9rem; }
+.chat-input-area { display: flex; padding: 10px; border-top: 1px solid #eee; }
+.chat-input-area input { flex: 1; border: 1px solid #ddd; border-radius: 5px; padding: 5px; }
