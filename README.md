@@ -1,6 +1,5 @@
 # 🎬 WitFlix - AI-Powered Movie Streaming Interface
 
-# 🎬 WitFlix - AI-Powered Movie Streaming Interface
 
 **[🚀 CLICK HERE TO VIEW THE LIVE DEMO](https://yavuzs-cakmak.github.io/witflix/)**
 
